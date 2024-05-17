@@ -111,6 +111,8 @@ int main(){
     edges.push_back({2,3});
     edges.push_back({1,4});
     LCA* l = new LCA(v);
+    // Why is 'v'?
+    //There is no declaration in main
     std::cout << l->lcaQuery(0,1) << endl;
     std::cout << l->lcaQuery(3,4) << endl;
     std::cout << l->lcaQuery(3,2) << endl;
